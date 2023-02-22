@@ -22,13 +22,27 @@ TensorBoard 2.12.0 at http://localhost:6006/ (Press CTRL+C to quit)
 
 # 共享训练数据
 # tensorboard dev upload --logdir runs \
---name "My latest experiment" \ # optional
---description "Simple comparison of several hyperparameters" # optional
+--name "我的实验数据" \
+--description "共享训练数据"
 
-查看网址
+# 查看网址
 https://tensorboard.dev/
 
 # 终端查看共享数据
-tensorboard dev list
+# tensorboard dev list
+TensorFlow installation not found - running with reduced feature set.
+https://tensorboard.dev/experiment/doLJGrLbQdaeW26WFa75eA/
+        Name                 我的实验数据
+        Description          共享训练数据
+        Id                   doLJGrLbQdaeW26WFa75eA
+        Created              2023-02-22 11:44:40 (54 seconds ago)
+        Updated              2023-02-22 11:44:47 (47 seconds ago)
+        Runs                 6
+        Tags                 5
+        Scalars              6250
+        Tensor bytes         0
+        Binary object bytes  2434
+Total: 1 experiment(s)
+
 ```
 
