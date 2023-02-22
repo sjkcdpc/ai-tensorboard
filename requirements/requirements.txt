@@ -1,0 +1,4 @@
+matplotlib
+torch
+tensorboard
+tensorboardX
