@@ -5,10 +5,9 @@ https://pytorch.org/tutorials/recipes/recipes/tensorboard_with_pytorch.html?high
 
 # 部署
 ```shell script
-python example/example.py
-python example/example2.py
-
-pip install requirements/requirements.txt
+# pip install requirements/requirements.txt
+# python example/example.py
+# python example/example2.py
 
 # tensorboard --logdir runs
 TensorFlow installation not found - running with reduced feature set.
@@ -21,7 +20,7 @@ Serving TensorBoard on localhost; to expose to the network, use a proxy or pass 
 TensorBoard 2.12.0 at http://localhost:6006/ (Press CTRL+C to quit)
 
 
-# 共享训练模型
+# 共享训练数据
 # tensorboard dev upload --logdir runs \
 --name "My latest experiment" \ # optional
 --description "Simple comparison of several hyperparameters" # optional
@@ -29,8 +28,7 @@ TensorBoard 2.12.0 at http://localhost:6006/ (Press CTRL+C to quit)
 查看网址
 https://tensorboard.dev/
 
+# 终端查看共享数据
 tensorboard dev list
-
-
 ```
 
